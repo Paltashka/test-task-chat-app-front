@@ -1,0 +1,35 @@
+.messageBox {
+  background-color: #f7f7f7;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 80%;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+}
+
+.messageHeader {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+
+.username {
+  font-weight: bold;
+}
+
+.time {
+  color: #888;
+  margin-left: 5px;
+}
+
+.messageContent {
+  margin-top: 5px;
+  font-size: 14px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  text-align: left;
+}
